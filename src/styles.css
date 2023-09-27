@@ -1,0 +1,84 @@
+*, :before, :after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 1.5em auto;
+    background-color: white;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+th, td {
+    padding: .75em 1.5em;
+}
+
+form {
+    width: 100%;
+    max-width: 330px;
+
+    margin-inline: auto;
+    margin-block: 4rem;
+
+    padding: 0.25em 0.5em;
+
+    border: 1px solid black;
+    border-radius: 0.25rem;
+
+    text-align: center;
+
+}
+
+footer {
+    bottom: 0;
+}
+
+.small-text{
+    font-size: x-small;
+}
+
+.w-98{
+    width: 98%!important;
+}
+
+.transaction-title{
+    bottom: 180px;
+}
+
+.transaction-table{
+    bottom: 80px;
+}
+
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: darkred;
+}
+
+.custom-check{
+    margin-left: -0.25rem!important;
+    margin-top: -0.3rem!important;
+}
+
+.custom-form {
+    border: none;
+    max-width: unset;
+}
+
